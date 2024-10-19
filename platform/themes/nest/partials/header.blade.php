@@ -361,7 +361,7 @@
                 @if (theme_option('hotline'))
                     <div class="hotline d-none d-lg-flex">
                         <img src="{{ Theme::asset()->url('imgs/theme/icons/icon-headphone.svg') }}" alt="hotline"/>
-                        <p>{{ theme_option('hotline') }}<span>{{ __('24/7 Support Center') }}</span></p>
+                        <p>{{ theme_option('hotline') }}<span>شماره تماس فروشگاه زرین کیت</span></p>
                     </div>
                 @endif
                 <div class="header-action-icon-2 d-block d-lg-none">
