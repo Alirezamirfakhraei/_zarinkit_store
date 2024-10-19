@@ -1,0 +1,8 @@
+{
+    "name": "botble/zarinpal",
+    "description": "zarinppal Payment Gateway",
+    "type": "package",
+    "require": {
+        "shetabit/payment": "^v5.2.1"
+    }
+}

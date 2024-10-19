@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'count' => [
+        'customers' => 'کل مشتریان',
+        'orders' => 'سفارشات امروز',
+        'products' => 'کل محصولات',
+        'revenue' => 'درآمد امروز',
+    ],
+    'customers' => 'مشتریان',
+    'date_range_format_value' => 'از:from تا:to',
+    'earnings' => 'درآمد',
+    'items_earning_sales' => 'اقلام درآمد فروش: :value',
+    'name' => 'گزارش',
+    'order_completed_this_month' => 'سفارش(های) تکمیل شد این ماه',
+    'order_processing_this_month' => 'سفارش(های) در حال پردازش این ماه',
+    'orders' => 'سفارشات',
+    'product_name' => 'نام محصول',
+    'product_out_of_stock' => 'کالا(های) نا موجود',
+    'product_will_be_out_of_stock' => 'محصول(هایی) که به زودی ناموجود خواهد شد',
+    'products' => 'محصولات',
+    'quantity' => 'تعداد',
+    'ranges' => [
+        'last_30_days' => '30 روز گذشته',
+        'last_7_days' => '7 روز گذشته',
+        'this_month' => 'این ماه',
+        'this_week' => 'این هفته',
+        'this_year' => 'امسال',
+        'today' => 'امروز',
+    ],
+    'recent_orders' => 'آخرین سفارشات',
+    'revenue' => 'درآمد',
+    'revenue_statistics' => 'گزارش درآمد',
+    'revenue_this_month' => 'درآمد این ماه',
+    'sales_reports' => 'گزارش های فروش',
+    'select_range' => 'انتخاب دامنه',
+    'statistics' => 'آمار',
+    'top_selling_products' => 'محصولات پرفروش',
+    'total_earnings' => 'درآمد کل',
+    'widget' => [
+        'order' => [
+            'title' => 'سفارشات',
+        ],
+    ],
+];

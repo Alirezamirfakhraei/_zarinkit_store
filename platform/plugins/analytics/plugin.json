@@ -1,0 +1,9 @@
+{
+    "name": "تجزیه و تحلیل",
+    "namespace": "Botble\\Analytics\\",
+    "provider": "Botble\\Analytics\\Providers\\AnalyticsServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "ردیابی داده ها از گوگل آنالیتیکس"
+}

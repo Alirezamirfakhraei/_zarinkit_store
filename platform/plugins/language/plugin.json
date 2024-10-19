@@ -1,0 +1,9 @@
+{
+    "name": "زبان",
+    "namespace": "Botble\\Language\\",
+    "provider": "Botble\\Language\\Providers\\LanguageServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "چند زبانه"
+}

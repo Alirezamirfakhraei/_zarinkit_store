@@ -1,0 +1,9 @@
+{
+    "name": "تجارت الکترونیک",
+    "namespace": "Botble\\Ecommerce\\",
+    "provider": "Botble\\Ecommerce\\Providers\\EcommerceServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "3.0",
+    "description": "پلاگین برای ویژگی های تجارت الکترونیک"
+}

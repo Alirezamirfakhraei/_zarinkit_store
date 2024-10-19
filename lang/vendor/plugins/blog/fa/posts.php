@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'author' => 'نویسنده',
+    'cannot_delete' => 'پست حذف نشد',
+    'categories' => 'دسته ها',
+    'category' => 'دسته',
+    'create' => 'ایجاد پست جدید',
+    'edit' => 'ویرایش پست',
+    'edit_this_post' => 'ویرایش این پست',
+    'form' => [
+        'categories' => 'دسته ها',
+        'content' => 'محتوا',
+        'description' => 'توضیحات',
+        'description_placeholder' => 'توضیحات کوتاه برای پست (حداکثر :c نویسه)',
+        'format_type' => 'قالب',
+        'is_featured' => 'برجسته است؟',
+        'name' => 'نام',
+        'name_placeholder' => 'نام پست (حداکثر :c نویسه)',
+        'note' => 'یادداشت محتوا',
+        'tags' => 'برچسب ها',
+        'tags_placeholder' => 'برچسب ها',
+    ],
+    'menu_name' => 'نوشته ها',
+    'no_new_post_now' => 'الان پست جدیدی نیست!',
+    'post' => 'پست',
+    'post_deleted' => 'پست حذف شده',
+    'posts' => 'پست ها',
+    'widget_posts_recent' => 'آخرین پست ها',
+];

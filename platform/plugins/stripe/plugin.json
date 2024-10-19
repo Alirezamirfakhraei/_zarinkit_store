@@ -1,0 +1,10 @@
+{
+    "name": "درگاه پرداخت Stripe",
+    "namespace": "Botble\\Stripe\\",
+    "provider": "Botble\\Stripe\\Providers\\StripeServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "ادغام درگاه پرداخت Stripe",
+    "require": ["payment"]
+}

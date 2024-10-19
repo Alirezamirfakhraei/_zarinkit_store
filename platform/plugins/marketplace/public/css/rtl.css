@@ -1,0 +1,43 @@
+body[dir=rtl] .main-wrap {
+    margin-right: 300px;
+    margin-left: auto;
+}
+
+body.aside-mini .main-wrap {
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+body[dir=rtl] a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    font-family: 'iranyekan';
+}
+
+.add-new-product-attribute-wrap .btn-trigger-add-attribute {
+    right: auto;
+    left: 10px;
+}
+
+body[dir=rtl] .icontext .icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+body[dir=rtl] .menu-aside .menu-item .icon {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    body[dir=rtl] .navbar-aside {
+        transform: translateX(-162%);
+    }
+
+    body[dir=rtl] .navbar-aside.show {
+        transform: translateX(0) !important;
+    }
+
+    body[dir=rtl] .main-wrap {
+        margin-right: 0 !important;
+        margin-left: auto;
+    }
+}

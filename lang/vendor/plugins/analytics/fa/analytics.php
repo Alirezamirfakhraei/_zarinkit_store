@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'avg_duration' => 'میانگین مدت زمان',
+    'bounce_rate' => 'نرخ پرش',
+    'credential_is_not_valid' => 'اعتبار تجزیه و تحلیل معتبر نیست. سند در اینجا: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master/plugin-analytics </a>',
+    'new_users' => 'بازدید کننده جدید',
+    'page_session' => 'صفحات/نشست',
+    'pageviews' => 'بازدید از صفحه',
+    'percent_new_session' => 'درصد نشست جدید',
+    'sessions' => 'نشست ها',
+    'settings' => [
+        'description' => 'اعتبار پیکربندی برای Google Analytics',
+        'json_credential' => 'اعتبار حساب خدمات',
+        'json_credential_description' => 'اعتبار حساب خدمات',
+        'title' => 'تجزیه و تحلیل ترافیک گوگل',
+        'tracking_code' => 'شناسه پیگیری',
+        'tracking_code_placeholder' => 'مثال : GA-12586526-8',
+        'view_id' => 'شناسه بازدید',
+        'view_id_description' => 'شناسه بازدید تجزیه و تحلیل گوگل',
+    ],
+    'start_date_can_not_before_end_date' => 'تاریخ شروع :start_date نمی تواند بعد از تاریخ پایان :end_date باشد',
+    'view_id_not_specified' => 'شما باید یک شناسه نمای معتبر ارائه دهید. سند در اینجا: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master/plugin-analytics </a>',
+    'views' => 'بازدیدها',
+    'visitors' => 'بازدیدکنندگان',
+    'visits' => 'بازدید',
+    'widget_analytics_browser' => 'مرورگرهای برتر',
+    'widget_analytics_general' => 'تجزه و تحلیل سایت',
+    'widget_analytics_page' => 'پربازدیدترین صفحات',
+    'widget_analytics_referrer' => 'ارجاع دهندگان برتر',
+    'wrong_configuration' => 'برای مشاهده تجزیه و تحلیل، باید شناسه سرویس گیرنده Google Analytics را دریافت کرده و آن را به تنظیمات خود اضافه کنید. <br /> همچنین به داده های اعتبار JSON نیاز دارید. <br /> سند اینجاست: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master /plugin-analytics</a>',
+];

@@ -1,0 +1,9 @@
+{
+  "name": "لغزنده ساده",
+  "namespace": "Botble\\SimpleSlider\\",
+  "provider": "Botble\\SimpleSlider\\Providers\\SimpleSliderServiceProvider",
+  "author": "shopland",
+  "url": "http://laravel-shopland.ir",
+  "version": "5.8",
+  "description": "افزونه ای برای ایجاد اسلایدر"
+}

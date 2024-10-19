@@ -1,0 +1,9 @@
+{
+    "name": "گزارش حسابرسی",
+    "namespace": "Botble\\AuditLog\\",
+    "provider": "Botble\\AuditLog\\Providers\\AuditLogServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "ثبت گزارش فعالیت ها"
+}

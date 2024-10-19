@@ -1,0 +1,9 @@
+{
+    "name": "رضایت کوکی",
+    "namespace": "Botble\\CookieConsent\\",
+    "provider": "Botble\\CookieConsent\\Providers\\CookieConsentServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "رضایت کوکی"
+}

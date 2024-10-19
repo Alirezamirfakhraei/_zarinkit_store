@@ -1,0 +1,10 @@
+{
+    "name": "درگاه پرداخت پی پال",
+    "namespace": "Botble\\Paypal\\",
+    "provider": "Botble\\Paypal\\Providers\\PaypalServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "ادغام درگاه پرداخت پی پال",
+    "require": ["payment"]
+}

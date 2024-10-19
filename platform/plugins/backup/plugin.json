@@ -1,0 +1,9 @@
+{
+    "name": "پشتیبان گیری",
+    "namespace": "Botble\\Backup\\",
+    "provider": "Botble\\Backup\\Providers\\BackupServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "پشتیبان گیری و بازیابی پایگاه داده، پوشه آپلود"
+}
