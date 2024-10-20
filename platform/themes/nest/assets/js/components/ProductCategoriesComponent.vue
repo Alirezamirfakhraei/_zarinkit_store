@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        {{console.log('test')}}
         <div class="section-title" v-if="!isLoading">
             <div class="title">
                 <h3>{{ title }}</h3>

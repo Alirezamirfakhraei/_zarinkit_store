@@ -1,3 +1,4 @@
+
 <div class="hero-slider-1 dot-style-1 dot-style-1-position-1 {{ $class ?? ''}}">
     @foreach($sliders as $slider)
         @if ($slider->link && !($shortcode->show_newsletter_form == 'yes' && is_plugin_active('newsletter')))
@@ -25,53 +26,104 @@
     @endforeach
 </div>
 
+
+
+
+
 <br>
 <div class="slider-arrow hero-slider-1-arrow"></div>
 <div class="container mt-5">
     <table class="table table-bordered text-center">
         <tbody>
         <tr>
-            <td class="disabled-flag">
-                <a href="https://en.wikipedia.org/wiki/South_Korea" target="_blank">
-                    <img src="https://flagcdn.com/w320/kr.png" alt="South Korea Flag" width="80">
+            <td>
+                <a href="https://www.mercedes-benz.com" target="_blank">
+                    <img class="svg-logo-car" src="{{asset('storage/SvgLogoCar/Porsche.svg')}}" alt="Porsche Logo"
+                         width="200">
                 </a>
             </td>
             <td>
-                <a href="https://en.wikipedia.org/wiki/Iran" target="_blank">
-                    <img src="https://flagcdn.com/w320/de.png" alt="Germany Flag" width="80">
-                </a>
-            </td>
-            <td class="disabled-flag">
-                <img src="https://flagcdn.com/w320/jp.png" alt="Japan Flag" width="80">
-            </td>
-        </tr>
-        <tr>
-            <td class="disabled-flag title-flag">کره</td>
-            <td class="title-flag">آلمان</td>
-            <td class="disabled-flag title-flag">ژاپن</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://en.wikipedia.org/wiki/China" target="_blank">
-                    <img src="https://flagcdn.com/w320/cn.png" alt="China Flag" width="80">
+                <a href="https://www.bmw.com" target="_blank">
+                    <img class="svg-logo-car" src="{{asset('storage/SvgLogoCar/Bmw.svg')}}" alt="BMW Logo" width="200">
                 </a>
             </td>
             <td>
-                <a href="https://en.wikipedia.org/wiki/Iran" target="_blank">
-                    <img src="https://flagcdn.com/w320/fr.png" alt="France Flag" width="80">
+                <a href="https://www.porsche.com" target="_blank">
+                    <img class="svg-logo-car" src="{{asset('storage/SvgLogoCar/BENZ.svg')}}" alt="Mercedes-Benz Logo"
+                         width="200">
+
                 </a>
             </td>
-            <td>
-                <a href="https://en.wikipedia.org/wiki/Iran" target="_blank">
-                    <img src="https://flagcdn.com/w320/ir.png" alt="Iran Flag" width="80">
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td class="title-flag">چین</td>
-            <td class="title-flag">فرانسه</td>
-            <td class="title-flag">ایران</td>
         </tr>
         </tbody>
     </table>
 </div>
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <h1>نمایش فرمان جدید و قدیم</h1>
+
+    <div class="slider-container">
+        <div class="img-wrapper">
+            <img src="{{ asset('storage/general/before.jpg') }}" alt="فرمان قدیمی" class="img-old">
+            <div class="img-overlay" id="overlay">
+                <img src="{{ asset('storage/general/after.jpg') }}" alt="فرمان قدیمی" class="img-old">
+            </div>
+            <div class="slider-handle" id="slider-handle"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const slider = document.getElementById('slider-handle');
+        const overlay = document.getElementById('overlay');
+        const imgWrapper = document.querySelector('.img-wrapper');
+
+        let isSliding = false;
+
+        // شروع کشیدن اسلایدر
+        slider.addEventListener('mousedown', function () {
+            isSliding = true;
+        });
+
+        // توقف کشیدن اسلایدر
+        document.addEventListener('mouseup', function () {
+            isSliding = false;
+        });
+
+        // حرکت موس برای تنظیم اسلایدر
+        document.addEventListener('mousemove', function (event) {
+            if (!isSliding) return;
+            const { width, left } = imgWrapper.getBoundingClientRect();
+            let offsetX = event.clientX - left;
+
+            // جلوگیری از خروج از محدوده
+            if (offsetX < 0) offsetX = 0;
+            if (offsetX > width) offsetX = width;
+
+            const percentage = (offsetX / width) * 100;
+
+            overlay.style.width = `${percentage}%`;
+            slider.style.left = `${percentage}%`;
+        });
+    });
+</script>
+

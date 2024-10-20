@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     @foreach ($keys as $key)
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-6 col-md-6" >
                             {!! display_ad($key, '', $loop) !!}
                         </div>
                     @endforeach
@@ -25,3 +25,4 @@
         </section>
     @endif
 @endif
+

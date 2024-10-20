@@ -192,18 +192,6 @@
                         </div>
                         <div class="header-action-right">
                             <div class="header-action-2">
-                                @if (EcommerceHelper::isCompareEnabled())
-                                    <div class="header-action-icon-2">
-                                        <a href="{{ route('public.compare') }}">
-                                            <img class="svgInject" alt="{{ __('Compare') }}"
-                                                 src="{{ Theme::asset()->url('imgs/theme/icons/icon-compare.svg') }}"/>
-                                            <span
-                                                class="pro-count blue compare-count">{{ Cart::instance('compare')->count() }}</span>
-                                        </a>
-                                        <a href="{{ route('public.compare') }}"><span
-                                                class="lable">{{ __('Compare') }}</span></a>
-                                    </div>
-                                @endif
                                 @if (EcommerceHelper::isWishlistEnabled())
                                     <div class="header-action-icon-2">
                                         <a href="{{ route('public.wishlist') }}">
@@ -359,9 +347,9 @@
                     </div>
                 </div>
                 @if (theme_option('hotline'))
-                    <div class="hotline d-none d-lg-flex">
-                        <img src="{{ Theme::asset()->url('imgs/theme/icons/icon-headphone.svg') }}" alt="hotline"/>
-                        <p>{{ theme_option('hotline') }}<span>شماره تماس فروشگاه زرین کیت</span></p>
+                    <div class="hotline d-none d-lg-flex mt-5">
+{{--                        <img src="{{ Theme::asset()->url('imgs/theme/icons/icon-headphone.svg') }}" alt="hotline"/>--}}
+                        <p>{{ theme_option('hotline') }}</p>
                     </div>
                 @endif
                 <div class="header-action-icon-2 d-block d-lg-none">
@@ -529,6 +517,11 @@
     </div>
 </div>
 <!--End header-->
+
+
+
+
+
 
 
 
