@@ -162,6 +162,13 @@
 
                 <div class="header-right">
                     @if (is_plugin_active('ecommerce'))
+                        @if (theme_option('logo'))
+                            <div class="logo logo-width-1">
+                                <a href="{{ route('public.index') }}"><img class="logo-scale"
+                                        src="{{ RvMedia::getImageUrl(theme_option('logo')) }}"
+                                        alt="{{ theme_option('site_title') }}"></a>
+                            </div>
+                        @endif
                         <div class="search-style-2">
                             <form action="{{ route('public.products') }}" class="form--quick-search"
                                   data-ajax-url="{{ route('public.ajax.search-products') }}" method="GET">
@@ -176,19 +183,23 @@
                                     </select>
                                 </div>
                                 <input type="text" class="input-search-product" name="q"
-                                       placeholder="{{ __('Search for items...') }}"
                                        value="{{ is_string(request()->input('q')) ? request()->input('q') : '' }}"
                                        autocomplete="off">
-                                <div class="panel--search-result"></div>
+
+                                <button type="submit" class="search-btn"
+                                        style=" display: flex; align-items: center; justify-content: center;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" color="#fff"
+                                         class="bi bi-search" viewBox="0 0 16 16" style="margin-left: 8px;">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001a1.007 1.007 0 0 0-.07.087l3.85 3.85a1 1 0 0 0 1.415-1.415l-3.85-3.85a1.007 1.007 0 0 0-.087-.07zm-5.442 1.1a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/>
+                                    </svg>
+
+
+                                </button>
+
                             </form>
                         </div>
-                        @if (theme_option('logo'))
-                            <div class="logo logo-width-1">
-                                <a href="{{ route('public.index') }}"><img
-                                        src="{{ RvMedia::getImageUrl(theme_option('logo')) }}"
-                                        alt="{{ theme_option('site_title') }}"></a>
-                            </div>
-                        @endif
+
                         <div class="header-action-right">
                             <div class="header-action-2">
                                 @if (EcommerceHelper::isWishlistEnabled())
