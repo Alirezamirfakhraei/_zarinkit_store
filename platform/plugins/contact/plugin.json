@@ -1,0 +1,9 @@
+{
+    "name": "فرم تماس",
+    "namespace": "Botble\\Contact\\",
+    "provider": "Botble\\Contact\\Providers\\ContactServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "فرم تماس"
+}

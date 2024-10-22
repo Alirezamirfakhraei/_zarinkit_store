@@ -1,0 +1,13 @@
+body[dir=rtl] #product-variations-wrapper .variation-actions {
+    left: 10px !important;
+    right: auto;
+}
+
+body[dir=rtl] .add-new-product-attribute-wrap .btn-trigger-add-attribute {
+    left: 10px !important;
+    right: auto;
+}
+body[dir=rtl] .comment-log .comment-log-timeline .column-left-history:before{
+    right: 21.5px;
+    left: auto;
+}

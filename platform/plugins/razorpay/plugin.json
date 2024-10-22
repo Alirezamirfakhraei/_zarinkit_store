@@ -1,0 +1,10 @@
+{
+    "name": "درگاه پرداخت Razorpay",
+    "namespace": "Botble\\Razorpay\\",
+    "provider": "Botble\\Razorpay\\Providers\\RazorpayServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "یکپارچه سازی درگاه پرداخت Razorpay",
+    "require": ["payment"]
+}

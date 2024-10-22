@@ -1,0 +1,14 @@
+platform/core/base/public/css/rtl.css
+platform/themes/nest/public/css/rtl.css
+platform/plugins/ecommerce/src/Http/Requests/ShippingRuleRequest.php
+platform/themes/nest/partials/shortcodes/our-offices.blade.php
+platform/themes/nest/widgets/ads/templates/frontend.blade.php
+platform/themes/nest/partials/shortcodes/flash-sale/best.blade.php
+platform/themes/nest/partials/shortcodes/ads/banner-big.blade.php
+platform/themes/nest/partials/shortcodes/ads/item-style-2.blade.php
+platform/themes/nest/partials/shortcodes/ads/item.blade.php
+platform/themes/nest/partials/shortcodes/ads/item-style-4.blade.php
+platform/themes/nest/partials/shortcodes/ads/item-style-5.blade.php
+platform/themes/nest/public/js/components.js
+platform/plugins/*
+platform/plugins/marketplace/public/css/rtl.css

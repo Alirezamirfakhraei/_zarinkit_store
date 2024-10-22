@@ -1,0 +1,9 @@
+{
+    "name": "ورود با شبکه های اجتماعی",
+    "namespace": "Botble\\SocialLogin\\",
+    "provider": "Botble\\SocialLogin\\Providers\\SocialLoginServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "ورود آسان تر و سریع تر با فیس بوک، لینکدین، گیت هاب یا گوگل."
+}

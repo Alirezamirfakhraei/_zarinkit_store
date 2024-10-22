@@ -1,0 +1,10 @@
+{
+    "name": "درگاه پرداخت زرین پال",
+    "namespace": "Botble\\Zarinpal\\",
+    "provider": "Botble\\Zarinpal\\Providers\\ZarinpalServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "ادغام درگاه پرداخت zarinpal",
+    "require": ["payment"]
+}

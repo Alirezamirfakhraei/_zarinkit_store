@@ -1,0 +1,10 @@
+{
+    "name": "درگاه پرداخت Paystack",
+    "namespace": "Botble\\Paystack\\",
+    "provider": "Botble\\Paystack\\Providers\\PaystackServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "ادغام درگاه پرداخت Paystack",
+    "require": ["payment"]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "محل",
+    "namespace": "Botble\\Location\\",
+    "provider": "Botble\\Location\\Providers\\LocationServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "ماژول پیشرفته مکان"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "چند فروشندگی",
+    "namespace": "Botble\\Marketplace\\",
+    "provider": "Botble\\Marketplace\\Providers\\MarketplaceServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "2.0.0",
+    "description": "افزونه چند فروشندگی برای سایت تجارت الکترونیک"
+}

@@ -1,0 +1,51 @@
+<?php
+
+return [
+    'current_balance' => 'موجودی فعلی',
+    'email' => [
+        'pending_product_approval_description' => 'هنگامی که فروشنده محصولات خود را پست می کند، برای مدیر ایمیل ارسال کنید',
+        'pending_product_approval_title' => 'در انتظار تایید محصول',
+        'product_approved_description' => 'پس از تایید محصول، برای فروشنده ایمیل ارسال کنید',
+        'product_approved_title' => 'محصول تایید شده',
+        'store_new_order_description' => 'هنگام سفارش، برای صاحب فروشگاه ایمیل ارسال کنید',
+        'store_new_order_title' => 'اطلاعیه در مورد سفارش جدید',
+        'vendor_account_approved_description' => 'پس از تایید حساب فروشنده به فروشنده ایمیل ارسال کنید',
+        'vendor_account_approved_title' => 'حساب فروشنده تأیید شد',
+        'verify_vendor_description' => 'وقتی فروشنده ای ثبت نام کرد به مدیر ایمیل بفرستید',
+        'verify_vendor_title' => 'فروشنده را تأیید کنید',
+        'withdrawal_approved_description' => 'پس از تایید درخواست برداشت، برای فروشنده ایمیل ارسال کنید',
+        'withdrawal_approved_title' => 'برداشت تایید شد',
+    ],
+    'helpers' => [
+        'customer_status' => 'اگر وضعیتی غیر از ":status" را تغییر دهید، این فروشگاه فروشنده نیز به ":store" تغییر خواهد کرد.',
+        'store_status' => 'اگر وضعیتی غیر از ":status" را تغییر دهید، حساب این فروشگاه نیز به ":customer" تغییر خواهد کرد.',
+    ],
+    'name' => 'بازارها',
+    'product_name' => 'نام محصول',
+    'product_url' => 'لینک محصول',
+    'settings' => [
+        'allow_vendor_manage_shipping' => 'به فروشنده اجازه می‌دهید حمل و نقل را مدیریت کند؟',
+        'check_valid_signature' => 'امضای معتبر در درآمد فروشنده را بررسی کنید',
+        'description' => 'توضیحات',
+        'enable_product_approval' => 'تایید محصول را فعال کنید',
+        'fee_per_order' => 'کارمزد هر سفارش (%)، پیشنهاد: 2 یا 3',
+        'fee_withdrawal' => 'کارمزد برداشت برداشت (مبلغ ثابت)',
+        'hide_store_phone_number' => 'شماره تلفن فروشگاه پنهان شود؟',
+        'name' => 'تنظیمات',
+        'title' => 'تنظیمات برای بازار',
+        'verify_vendor' => 'تأیید فروشنده (فروشنده فقط می تواند لیست محصول خود را پس از تأیید ارسال کند)',
+    ],
+    'store_email' => 'ایمیل فروشگاه',
+    'store_name' => 'نام فروشگاه',
+    'store_phone' => 'تلفن فروشگاه',
+    'tables' => [
+        'earnings' => 'درآمدها',
+        'products_count' => 'تعداد محصولات',
+    ],
+    'theme_options' => [
+        'description' => 'گزینه های تم برای بازار',
+        'logo_vendor_dashboard' => 'لوگو در داشبورد فروشنده (پیش‌فرض آرم اصلی است)',
+        'name' => 'بازارها',
+    ],
+    'withdrawal_amount' => 'مبلغ برداشت',
+];

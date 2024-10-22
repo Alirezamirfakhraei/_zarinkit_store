@@ -1,0 +1,9 @@
+{
+  "name": "سوالات متداول",
+  "namespace": "Botble\\Faq\\",
+  "provider": "Botble\\Faq\\Providers\\FaqServiceProvider",
+  "author": "shopland",
+  "url": "http://laravel-shopland.ir",
+  "version": "5.8",
+  "description": "سؤالات متداول"
+}

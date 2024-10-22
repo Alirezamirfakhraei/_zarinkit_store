@@ -1,0 +1,9 @@
+{
+  "name": "کپچا",
+  "namespace": "Botble\\Captcha\\",
+  "provider": "Botble\\Captcha\\Providers\\CaptchaServiceProvider",
+  "author": "shopland",
+  "url": "http://laravel-shopland.ir",
+  "version": "5.8",
+  "description": "کپچا برای امنیت بالاتر"
+}

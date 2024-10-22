@@ -1,0 +1,9 @@
+{
+    "name": "پرداخت",
+    "namespace": "Botble\\Payment\\",
+    "provider": "Botble\\Payment\\Providers\\PaymentServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.1",
+    "description": "افزونه پرداخت"
+}

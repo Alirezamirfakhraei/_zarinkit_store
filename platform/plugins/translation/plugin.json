@@ -1,0 +1,9 @@
+{
+    "name": "ترجمه",
+    "namespace": "Botble\\Translation\\",
+    "provider": "Botble\\Translation\\Providers\\TranslationServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "متن ترجمه را مدیریت کنید"
+}

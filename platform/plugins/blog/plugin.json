@@ -1,0 +1,9 @@
+{
+    "name": "وبلاگ",
+    "namespace": "Botble\\Blog\\",
+    "provider": "Botble\\Blog\\Providers\\BlogServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "5.8",
+    "description": "مدیریت پست ها، دسته بندی ها، برچسب ها"
+}

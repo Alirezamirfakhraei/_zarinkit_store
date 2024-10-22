@@ -1,0 +1,9 @@
+{
+    "name": "تبلیغات",
+    "namespace": "Botble\\Ads\\",
+    "provider": "Botble\\Ads\\Providers\\AdsServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "مدیریت تبلیغات"
+}

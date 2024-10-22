@@ -1,0 +1,10 @@
+{
+    "name": "درگاه بانک ملت",
+    "namespace": "Botble\\Behpardakht\\",
+    "provider": "Botble\\Behpardakht\\Providers\\BehpardakhtServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.0",
+    "description": "درگاه پرداخت ملت",
+    "require": ["payment"]
+}

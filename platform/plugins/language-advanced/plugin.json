@@ -1,0 +1,10 @@
+{
+    "name": "زبان پیشرفته",
+    "namespace": "Botble\\LanguageAdvanced\\",
+    "provider": "Botble\\LanguageAdvanced\\Providers\\LanguageAdvancedServiceProvider",
+    "author": "shopland",
+    "url": "http://laravel-shopland.ir",
+    "version": "1.1",
+    "description": "چند زبانه پیشرفته",
+    "require": ["language"]
+}
