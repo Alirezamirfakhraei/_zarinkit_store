@@ -67,29 +67,7 @@
                                                     @endif
                                                 </div>
                                             </div>
-                                            <div class="form-group user-role">
-                                                <p class="tags-radio d-inline-block me-3">
-                                                    <label>
-                                                        <input type="radio" name="is_vendor" value="0" @if (old('is_vendor') == 0) checked="checked" @endif>
-                                                        <span class="d-inline-block">
-                                                            {{ __('I am a customer') }}
-                                                        </span>
-                                                    </label>
-                                                </p>
-                                                <p class="tags-radio d-inline-block">
-                                                    <label>
-                                                        <input type="radio" name="is_vendor" value="1" @if (old('is_vendor') == 1) checked="checked" @endif>
-                                                        <span class="d-inline-block">
-                                                            {{ __('I am a vendor') }}
-                                                        </span>
-                                                    </label>
-                                                </p>
-                                            </div>
                                         @endif
-                                        <div class="form-group">
-                                            <p>{{ __('Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.') }}</p>
-                                        </div>
-					
 					@if (is_plugin_active('captcha') && setting('enable_captcha') && get_ecommerce_setting('enable_recaptcha_in_register_page', 0))
                                     <div class="form-group">
                                        {!! Captcha::display() !!}
@@ -118,7 +96,9 @@
                         </div>
                     </div>
                     <div class="col-lg-6 pr-30">
-                        {!! apply_filters(BASE_FILTER_AFTER_LOGIN_OR_REGISTER_FORM, null, \Botble\Ecommerce\Models\Customer::class) !!}
+                        @if ($image = theme_option('image_in_login_page', theme_option('logo')))
+                            <img class="border-radius-15" src="{{asset('storage/general/signup-vector.png')}}" alt="{{ theme_option('site_name') }}" />
+                        @endif
                     </div>
                 </div>
             </div>

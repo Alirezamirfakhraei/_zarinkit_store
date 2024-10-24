@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-lg-6 pr-30 d-none d-lg-block">
                         @if ($image = theme_option('image_in_login_page', theme_option('logo')))
-                            <img class="border-radius-15" src="{{ RvMedia::getImageUrl($image) }}" alt="{{ theme_option('site_name') }}" />
+                            <img class="border-radius-15" src="{{asset('storage/general/loginVector.png')}}" alt="{{ theme_option('site_name') }}" />
                         @endif
                     </div>
                     <div class="col-lg-6 col-md-8">
@@ -51,9 +51,9 @@
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-heading btn-block hover-up">{{ __('Login') }}</button>
                                     </div>
-                                    <div class="text-left">
-                                        {!! apply_filters(BASE_FILTER_AFTER_LOGIN_OR_REGISTER_FORM, null, \Botble\Ecommerce\Models\Customer::class) !!}
-                                    </div>
+{{--                                    <div class="text-left">--}}
+{{--                                        {!! apply_filters(BASE_FILTER_AFTER_LOGIN_OR_REGISTER_FORM, null, \Botble\Ecommerce\Models\Customer::class) !!}--}}
+{{--                                    </div>--}}
                                 </form>
                             </div>
                         </div>

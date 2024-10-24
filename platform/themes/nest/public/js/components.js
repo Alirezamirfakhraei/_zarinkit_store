@@ -3557,6 +3557,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -8247,23 +8248,25 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container custom_cc_1" }, [
-    _c(
-      "div",
-      { staticClass: "row" },
-      [
-        _vm.isLoading ? _c("div", [_vm._m(0)]) : _vm._e(),
-        _vm._v(" "),
+  return _c("div", { staticClass: "container custom_cc_1 p-20" }, [
+    _c("div", { staticClass: "row" }, [
+      _vm.isLoading ? _c("div", [_vm._m(0)]) : _vm._e(),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "border-custom-product" },
         _vm._l(_vm.data, function (item, index) {
           return !_vm.isLoading && _vm.data.length
             ? _c(
                 "div",
                 {
                   key: index,
-                  class:
+                  class: [
                     "col-xl-" +
-                    12 / _vm.data.length +
-                    " col-lg-6 col-md-6 mb-md-0",
+                      12 / _vm.data.length +
+                      " col-lg-6 col-md-6 mb-md-0 custmnT",
+                    { "bor-cu": index === 1 },
+                  ],
                 },
                 [
                   _c(
@@ -8374,9 +8377,9 @@ var render = function () {
               )
             : _vm._e()
         }),
-      ],
-      2
-    ),
+        0
+      ),
+    ]),
   ])
 }
 var staticRenderFns = [

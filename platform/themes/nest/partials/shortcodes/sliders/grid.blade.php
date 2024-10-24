@@ -33,18 +33,20 @@
         <tbody>
         <tr>
             <td>
-                <a href="https://www.mercedes-benz.com" target="_blank">
+                <a href="http://127.0.0.1:8000/product-categories/porsche" target="_blank">
                     <img class="svg-logo-car" src="{{asset('storage/SvgLogoCar/Porsche.svg')}}" alt="Porsche Logo"
                          width="150">
                 </a>
             </td>
             <td>
-                <a href="https://www.bmw.com" target="_blank">
+                <a href="http://127.0.0.1:8000/product-categories/bmw"
+                   target="_blank">
                     <img class="svg-logo-car" src="{{asset('storage/SvgLogoCar/Bmw.svg')}}" alt="BMW Logo" width="150">
                 </a>
             </td>
             <td>
-                <a href="https://www.porsche.com" target="_blank">
+                <a href="http://127.0.0.1:8000/product-categories/benz"
+                   target="_blank">
                     <img class="svg-logo-car" src="{{asset('storage/SvgLogoCar/BENZ.svg')}}" alt="Mercedes-Benz Logo"
                          width="150">
                 </a>
@@ -53,7 +55,6 @@
         </tbody>
     </table>
 </div>
-
 
 
 <div class="container-width">
@@ -73,8 +74,6 @@
         </div>
     </div>
 </div>
-
-
 
 
 <!-- Scripts -->
